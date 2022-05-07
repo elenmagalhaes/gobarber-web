@@ -1,12 +1,12 @@
 import React, { createContext, useCallback, useContext, useState } from 'react';
-import api from '../services/api';
+import api from '../../services/api';
 
 import {
   AuthProviderProps,
   AuthContextData,
   AuthStateProps,
   SignInCredentials,
-} from './AuthContext.types';
+} from './auth.types';
 
 const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
